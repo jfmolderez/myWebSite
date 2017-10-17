@@ -9,36 +9,77 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>JF Molderez</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-book fa-lg"></span> Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./quotes.html"><span class="fa fa-quote-left fa-lg"></span> Quotes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-8">
-                    <h1>Latin Aficionado</h1>
-                    <p>Florebo quocumque ferar. Quo non Ascendet. Nec Pluribus Impar. Deo juvante. Hos successus alit , possunt quia posse videntur.</p>
-                </div>
-                <div class="col col-sm">
+            <div class="row align-items-center">
+                <div class="col-sm">
+                    <div class="media">
+                        <img class="d-flex mr-3 align-self-center" src="img/boileau_110x110.jpg" alt="boileau">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Ce que l'on conçoit bien s'énonce clairement,<br>
+                                Et les mots pour le dire arrivent aisément.</p>
+                                <footer class="blockquote-footer">Nicolas Boileau
+                                    <cite title="Source Title">Art poétique Chant 1 - v153 </cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4 push-sm-8 col-md-3 push-md-9">
-                <h3>Vertu et Génie selon Cicéron</h3>
-            </div>
-            <div class="col-sm pull-sm-4 col-md pull-md-3">
-                <h2>Ingenium et Virtus</h2>
-                <p> Fructus enim ingenii et virtutis omnisque praestantiae tum amximus accipitur, cum in proximum quemque confertur.</p>
+        <div class="row row-content align-items-center">
+            <div class="col-sm col-md flex-first">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/jfmolderez_110x110.jpg" alt="jfmolderez">
+                    <div class="media-body">
+                        <p class="hidden-xs-down">Consultant en génie logiciel avec une large expérience en modélisation d'applications sur base de cas d'utilisation, rédaction de spécifications incluant les scénarios de test et gestion de projet.
+                        Auparavant chercheur dans le domaine de l'ingénierie des exigences. </p>
+                    </div>
+                </div>
             </div>
         </div>
-
-
+        <div class="row">
+            <div class="col-12 col-sm-4 flex-first">
+                <h3>Analyste fonctionnel</h3>
+                <p> Critique de livres - Optimisation discrète</p>
+            </div>
+            <div class="col-12 col-sm-4">
+                <h3>Dévelopeur Web</h3>
+                <p>Spécialisation Full Stack Web Developer</p>
+            </div>
+            <div class="col-12 col-sm-4 flex-last">
+                <h3>Latin Aficionado</h3>
+                <p> Critique de livres - Citations</p>
+            </div>
+        </div>
+    </div>
+<!--
         <div class="row">
             <div class="col-sm-4 col-md-3">
                 <h3>Elévation</h3>
@@ -52,19 +93,20 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-4 push-sm-8 col-md-3 push-md-9">
+            <div class="col-sm-4 col-md-3 flex-last">
                 <h3>Le temps nous est compté.</h3>
             </div>
-            <div class="col-sm pull-sm-4 col-md pull-md-3">
+            <div class="col-sm col-md flex-first">
                 <h2>Tempus tantum nostrum est !</h2>
                 <p>Omnia, Lucilii, aliena sunt. Tempus tantum nostrum est; in hujus rei fugacis ac lubricae possessionem natura nos misit, ex qua expellit quicumque vult. Et tanta stultitia mortalium est ut, quae minima et vilissima sunt, certe reparabilia, imputari sibi, cum impetravere, patiantur, nemo se judicet quicquam debere, qui tempus accepit,
                 cum interim hoc unum est, quod ne gratus quidem potest reddere.</p>
             </div>
         </div>
     </div>
-
+-->
     <footer>
         <div class="container">
+            <!--
             <div class="row">
                 <div class="col-5 col-sm-2 offset-1">
                     <h5>Links</h5>
@@ -97,6 +139,7 @@
                     </div>
                 </div>
            </div>
+       -->
            <div class="row">
                 <div class="col-auto">
                     <p>© Copyright 2017 Molderez Consult</p>
