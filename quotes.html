@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-book fa-lg"></span> Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./reviews.html"><span class="fa fa-book fa-lg"></span> Reviews</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-quote-left fa-lg"></span> Quotes</a></li>
                 </ul>
             </div>
@@ -38,8 +38,8 @@
             <div class="row align-items-center">
                 <div class="col-sm">
                     <div class="media">
-                        <img class="d-flex mr-3 align-self-center" src="img/ciceron_110x110.jpg" alt="boileau">
-                        <div class="media-body">
+                        <img class="d-flex mr-3 align-self-center" src="img/ciceron_200x200.jpg" alt="ciceron">
+                        <div class="media-body align-self-center">
                             <blockquote class="blockquote">
                                 <p class="mb-0">Fructus enim ingenii et virtutis omnisque praestantiae tum maximus accipitur,
                                 cum in proximum quemque confertur.</p>
@@ -61,10 +61,66 @@
                 <li class="breadcrumb-item active">Quotes</li>
             </ol>
         </div>
-        <div class="row">
-            <div class="col-12">
-               <h3>About Us</h3>
-               <hr>
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/laocoon_110x110.jpg" alt="Laocoon">
+                            <div class="carousel-caption d-none d-md-block">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Aut aliquis latet error: equo ne credite, Teucri.<br>
+                                        Quidquid id est, timeo Danaos et dona ferentes.
+                                    </p>
+                                    <footer class="blockquote-footer">Virgile
+                                        <cite title="Source Title">Enéide Livre II - v48-49 </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/virgile_110x110.jpg" alt="Virgile">
+                            <div class="carousel-caption d-none d-md-block">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Hos successus alit : possunt quia posse videntur.
+                                    </p>
+                                    <footer class="blockquote-footer">Virgile
+                                        <cite title="Source Title">Enéide Livre V - v231 </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/florebo_110x110.jpg" alt="Florebo quocumque ferar.">
+                            <div class="carousel-caption d-none d-md-block">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Florebo Quocumque Ferar.
+                                    </p>
+                                    <footer class="blockquote-footer">
+                                        <cite title="Source Title">Compagnie Française des Indes Orientales - Devise </cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btn-sm" id="carousel-button">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -186,86 +242,11 @@
             </div>
        </div>
 
-       <div class="row row-content">
-        <div class="col-12 col-sm-9">
-            <h2> Facts &amp; Figures </h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                 <thead class="thead-inverse">
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th>2013</th>
-                        <th>2014</th>
-                        <th>2015</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Employees</th>
-                        <td>15</td>
-                        <td>30</td>
-                        <td>40</td>
-                    </tr>
-                    <tr>
-                        <th>Guests Served</th>
-                        <td>15000</td>
-                        <td>45000</td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <th>Special Events</th>
-                        <td>3</td>
-                        <td>20</td>
-                        <td>45</td>
-                    </tr>
-                    <tr>
-                        <th>Annual Turnover</th>
-                        <td>$251,325</td>
-                        <td>$1,250,375</td>
-                        <td>~$3,000,000</td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="col-12 col-sm-3">
-        </div>
+
     </div>
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-5 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div class="col-sm align-self-center">
-                    <div style="text-align:center">
-                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>
-           </div>
            <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>© Copyright 2015 Ristorante Con Fusion</p>
@@ -278,7 +259,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
     <!-- endbuild -->
 </body>
 

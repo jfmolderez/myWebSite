@@ -22,22 +22,58 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-book fa-lg"></span> Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./reviews.html"><span class="fa fa-book fa-lg"></span> Reviews</a></li>
                     <li class="nav-item"><a class="nav-link" href="./quotes.html"><span class="fa fa-quote-left fa-lg"></span> Quotes</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
             </div>
         </div>
     </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header class="jumbotron">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm">
                     <div class="media">
-                        <img class="d-flex mr-3 align-self-center" src="img/boileau_110x110.jpg" alt="boileau">
-                        <div class="media-body">
+                        <img class="d-flex mr-3 align-self-center" src="img/boileau_200x200.jpg" alt="boileau">
+                        <div class="media-body align-self-center">
                             <blockquote class="blockquote">
                                 <p class="mb-0">Ce que l'on conçoit bien s'énonce clairement,<br>
                                 Et les mots pour le dire arrivent aisément.</p>
@@ -57,24 +93,24 @@
             <div class="col-sm col-md flex-first">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/jfmolderez_110x110.jpg" alt="jfmolderez">
-                    <div class="media-body">
-                        <p class="hidden-xs-down">Consultant en génie logiciel avec une large expérience en modélisation d'applications sur base de cas d'utilisation, rédaction de spécifications incluant les scénarios de test et gestion de projet.
-                        Auparavant chercheur dans le domaine de l'ingénierie des exigences. </p>
+                    <div class="media-body align-self-center">
+                        <p class="hidden-xs-down">Consultant en génie logiciel avec plus de dix années d'expérience en modélisation d'applications sur base de cas d'utilisation, rédaction de spécifications incluant les scénarios de test et gestion de projet.
+                        Auparavant, chercheur dans le domaine de l'ingénierie des exigences. </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-4 flex-first">
-                <h3>Analyste fonctionnel</h3>
+                <h3 class="field">Analyste fonctionnel</h3>
                 <p> Critique de livres - Optimisation discrète</p>
             </div>
             <div class="col-12 col-sm-4">
-                <h3>Dévelopeur Web</h3>
+                <h3 class="field">Dévelopeur Web</h3>
                 <p>Spécialisation Full Stack Web Developer</p>
             </div>
             <div class="col-12 col-sm-4 flex-last">
-                <h3>Latin Aficionado</h3>
+                <h3 class="field">Latin Aficionado</h3>
                 <p> Critique de livres - Citations</p>
             </div>
         </div>
@@ -140,7 +176,7 @@
                 </div>
            </div>
        -->
-           <div class="row">
+           <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>© Copyright 2017 Molderez Consult</p>
                 </div>
