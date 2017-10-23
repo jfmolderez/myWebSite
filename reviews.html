@@ -53,6 +53,39 @@
         </div>
     </header>
 
+    <div id="jacksonModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Abstract</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-header bg-faded">
+                            <h3>Software Requirements & Specifications</h3>
+                            <h5> a lexicon of practice, principles and prejudices</h5>
+                            <strong>by Michael Jackson</strong>
+                        </div>
+                        <div class="card-block">
+                            <p>Ce livre est un recueil de définitions et d'exemples relatifs à la conception d'applications logicielles (Software engineering).
+                            L'auteur y traite notamment de la distinction trop souvent ignorée entre description d'un problème (un domaine), et description d'une
+                            solution (une machine, une application) pour résoudre ce problème. La résolution d'un problème (le développement d'une application) est
+                            évidemment subordonnée à la compréhension du domaine mais cette compréhension est surtout une étape préliminaire indispensable pour
+                            reconnaître la forme et les contours d'un problème qui ne se caractérise pas tellement par la nature de l'application mais bien plutôt
+                            par la structure et les propriétés du domaine de cette application.
+                            We build the kind of Machine that can be physically embodied in a general-purpose computer and can be built simply by describing them.
+                            the general-purpose computer accepts our programs - our description of teh particular machine we want and converts itself into that machine.
+                            It is this relationship between our Descriptions and the physical world that allows us, if anything does,
+                            to claim that software development is engineering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <ol class="col-12 breadcrumb">
@@ -67,10 +100,7 @@
                     <div class="media-body align-self-center">
                         <h3>Software Requirements & Specifications</h3>
                         <h5> a lexicon of practice, principles and prejudices</h5>
-                        <p class="hidden-xs-down">
-                            <strong>Author: Michael Jackson</strong><br>
-                            We build the kind of Machine that can be physically embodied in a general-purpose computer and can be built simply by describing them. the general-purpose computer accepts our programs - our description of teh particular machine we want and converts itself into that machine. It is this relationship between our Descriptions and the physical world that allows us, if anything does, to claim that software development is engineering.
-                        </p>
+                        <strong>by Michael Jackson</strong>&nbsp;&nbsp;<a role="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#jacksonModal">  Abstract </a>
                     </div>
                 </div>
             </div>
@@ -78,7 +108,7 @@
     </div>
 
 
-    <footer>
+    <footer class="footer">
         <div class="container">
            <div class="row justify-content-center">
                 <div class="col-auto">
